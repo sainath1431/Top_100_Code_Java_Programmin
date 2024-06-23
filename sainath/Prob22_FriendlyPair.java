@@ -34,11 +34,6 @@ public class Prob22_FriendlyPair {
             System.out.print(n + " " + m +" are Not Friendly Pair.");
         }
 
-
-
-
-
-
     }
 
     static int sumOfDivisor(int num){
@@ -56,9 +51,9 @@ public class Prob22_FriendlyPair {
         int abundancyIndex_num1 = sumOfDivisor(num1) / num1;
         int abundancyIndex_num2 = sumOfDivisor(num2) / num2;
 
-        if(abundancyIndex_n == abundancyIndex_m){
-            return true;
-        }
+//        if(abundancyIndex_n == abundancyIndex_m){
+//            return true;
+//        }
 
         return false;
     }
